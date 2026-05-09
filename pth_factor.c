@@ -8,7 +8,7 @@ long pthFactor(long n, long p){
 
     long sqrtN = (long)sqrt((double)n);
 
-    for (long i = i; i <= sqrtN; i++){
+    for (long i = 1; i <= sqrtN; i++){
         if (n % i == 0){
             small[smallCount++] = i;
              
